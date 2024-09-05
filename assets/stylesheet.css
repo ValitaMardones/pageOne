@@ -80,7 +80,7 @@ li {
 .footer {
   position: relative;
   height: 100%;
-  background-image: url(/assets/images/fondos/footer.jpg);
+  background-image: url(./images/fondos/footer.jpg);
   background-position: 80% 50%;
   background-size: cover;
   opacity: 0.5;
