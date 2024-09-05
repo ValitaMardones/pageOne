@@ -1,0 +1,13 @@
+{
+  "nombreEmpresa": "INGENIERA LTDA 2025",
+  "description": "Inicio",
+  "navbar": [
+    {
+      "home1": "Inicio",
+      "servicios": "Servicios",
+      "proyectos": "Proyectos",
+      "nosotros": "Nosotros",
+      "Contacto": "Contacto"
+    }
+  ]
+}

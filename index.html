@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Nombre de mi empresa" content="Descripcion de mi empresa" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="./assets/images/Icons/favicon.ico" />
+    <link rel="stylesheet" href="./assets/stylesheet.css" />
+    <title>Mi pagina web</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top p-0">
+        <div class="container-fluid header">
+          <a class="navbar-brand" href="#inicio">
+            <img
+              class="logo"
+              src="assets/images/Icons/logo.png"
+              alt="logo empresa"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#inicio"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div id="inicio" class="inicio">
+        <div class="container-fluid general">
+          <h1 class="inicio-titulo">BIENVENIDOS</h1>
+        </div>
+      </div>
+
+      <!-- Servicios -->
+      <div id="servicios">
+        <h2
+          class="border-bottom border-black border-3 my-2 col-10 mx-auto my-4"
+        >
+          SERVICIOS
+        </h2>
+        <div class="row col-10 mx-auto my-5">
+          <div class="col-4 col-sm-5">
+            <div class="list-group list-servicios" id="list-tab" role="tablist">
+              <a
+                class="list-group-item list-group-item-action active"
+                id="list-home-list"
+                data-bs-toggle="list"
+                href="#list-home"
+                role="tab"
+                aria-controls="list-home"
+                >Servicio 1</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-profile-list"
+                data-bs-toggle="list"
+                href="#list-profile"
+                role="tab"
+                aria-controls="list-profile"
+                >Servicio 2</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-messages-list"
+                data-bs-toggle="list"
+                href="#list-messages"
+                role="tab"
+                aria-controls="list-messages"
+                >Servicio 3</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                >Servicio 4</a
+              >
+            </div>
+          </div>
+          <div class="col-8 col-sm-7">
+            <div class="tab-content" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="list-home"
+                role="tabpanel"
+                aria-labelledby="list-home-list"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus sapiente debitis magni possimus cum similique ut
+                dolor nesciunt quod qui omnis nostrum libero animi nisi ducimus
+                fugiat quam, beatae modi.
+              </div>
+              <div
+                class="tab-pane fade"
+                id="list-profile"
+                role="tabpanel"
+                aria-labelledby="list-profile-list"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptates sapiente labore sed facilis ad id quam magni omnis
+                doloremque! Eos eum ratione aut provident sunt dicta eveniet
+                commodi quia porro?
+              </div>
+              <div
+                class="tab-pane fade"
+                id="list-messages"
+                role="tabpanel"
+                aria-labelledby="list-messages-list"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Provident voluptatum accusantium officia officiis iste
+                voluptatibus, odio, necessitatibus repudiandae reiciendis animi
+                distinctio harum sequi est saepe et molestias asperiores vel ea.
+              </div>
+              <div
+                class="tab-pane fade"
+                id="list-settings"
+                role="tabpanel"
+                aria-labelledby="list-settings-list"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                velit laboriosam voluptatem possimus at libero ea natus quisquam
+                fuga sit, quas autem harum repellendus culpa, perspiciatis
+                labore quae deserunt repellat.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROYECTOS -->
+      <div id="proyectos" class="proyectos row col-10 mx-auto my-4">
+        <h2 class="border-bottom border-black border-3 my-2">PROYECTOS</h2>
+        <div
+          class="row row-cols-1 row-cols-xl-2 row-cols-lg-2 row-cols-md-2 row-cols-sm-1 g-4"
+        >
+          <div class="card mb-3 mx-auto w-100" style="">
+            <div class="row g-0 h-100 proyecto-container">
+              <div class="col-md-4 my-2 card-proyecto"></div>
+              <div class="col-md-8">
+                <div class="card-body pb-0">
+                  <h5 class="card-title">Proyecto 1</h5>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Commodi ipsam maiores iste corporis odio. Expedita quis
+                    iusto.
+                  </p>
+                  <div class="card-footer card-footer-proyecto col-6 w-100">
+                    <a href="#" class="btn btn-primary mx-auto py-2"
+                      >Go somewhere</a
+                    >
+                    <small class="text-body-secondary mx-auto py-2"
+                      >Last updated 3 mins ago</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 mx-auto w-100" style="">
+            <div class="row g-0 h-100">
+              <div class="col-md-4 my-2 card-proyecto"></div>
+              <div class="col-md-8">
+                <div class="card-body pb-0">
+                  <h5 class="card-title">Proyecto 2</h5>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Commodi ipsam maiores iste corporis odio. Expedita quis
+                    iusto, ullam, adipisci quibusdam similique officia sunt
+                    illum illo, vero libero veniam repellendus? Aliquam?
+                  </p>
+                  <div class="card-footer card-footer-proyecto col-6 w-100">
+                    <small class="text-body-secondary mx-auto py-2"
+                      >Last updated 3 mins ago</small
+                    >
+                    <a href="#" class="btn btn-primary mx-auto py-2"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 mx-auto w-100" style="">
+            <div class="row g-0 h-100">
+              <div class="col-md-4 my-2 card-proyecto"></div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 3</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quos, temporibus amet quam, iste voluptatem voluptates sit
+                    error cum cupiditate vel dolores perspiciatis voluptatum
+                    deleniti repellat consequuntur! Eaque provident nostrum
+                    temporibus.
+                  </p>
+                  <a href="#" class="btn btn-primary mb-2">Go somewhere</a>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 mx-auto w-100" style="">
+            <div class="row g-0 h-100">
+              <div class="col-md-4 my-2 card-proyecto"></div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 4</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Minus debitis voluptate odio! Culpa tempora ad beatae labore
+                    repellat molestias quas suscipit eos voluptates,
+                    consequuntur assumenda alias non harum natus maiores.
+                  </p>
+                  <div
+                    class="row card-footer card-footer-proyecto col-6 w-100 justify-content-end"
+                  >
+                    <a href="#" class="btn btn-primary mb-2 w-auto"
+                      >Go somewhere</a
+                    >
+                    <p class="card-text text-end">
+                      <small class="text-body-secondary"
+                        >Last updated 3 mins ago</small
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contacto">
+      <div class="row col-10 mx-auto footer-container">
+        <div class="col-sm-6 mb-3 p-0 m-0 card-left">
+          <div class="card-footer">
+            <div class="card-body-footer p-0 m-0 h-100">
+              <ul class="p-0">
+                <li class="footer-li">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Direccion, santiago
+                </li>
+                <li class="footer-li">
+                  <i class="bi bi-phone-vibrate-fill"></i>
+                  +56 9 1234 5678
+                </li>
+                <li class="footer-li">
+                  <i class="bi bi-envelope-at"></i>
+                  Correo@empresa.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card card-footer h-100">
+            <div class="card-body card-body-footer row">
+              <h5 class="card-title">Sobre la empresa</h5>
+              <p class="card-text text-justify">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Ratione officiis exercitationem, magni rerum consectetur
+                excepturi error debitis harum nihil rem corporis temporibus
+                repellendus laborum quos modi reiciendis, minus quasi atque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="bi bi-arrow-up mx-2"></i>
+    </button>
+    <small class="copyright">Wakalitos 2024</small>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
